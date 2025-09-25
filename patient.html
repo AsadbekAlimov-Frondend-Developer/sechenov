@@ -1,0 +1,565 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Клинический Центр Сеченовского Университета</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/8.4.7/swiper-bundle.min.css" />
+
+    <link rel="stylesheet" href="assets/styles/index.css">
+</head>
+
+<body>
+    <div class="wrapper patient">
+        <header class="header">
+            <div class="container">
+                <div class="header__top">
+                    <button class="header__mobile-toggle" id="mobileToggle">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M3.75 6.75H20.25M3.75 12H20.25M3.75 17.25H12" stroke="#001751" stroke-width="1.5"
+                                stroke-linecap="round" stroke-linejoin="round" />
+                        </svg>
+
+                    </button>
+                    <div class="header__logo">
+                        <a href="index.html">
+                            <img src="assets/images/logo.png" alt="Клинический Центр">
+                        </a>
+                        <div class="header__logo-text">
+                            <h1>Клинический Центр <br> Сеченовского Университета</h1>
+                        </div>
+                    </div>
+
+
+                    <div class="header__right">
+                        <div class="header__center">
+                            ежедневно с 8:00 до 20:00
+                        </div>
+                        <div class="header__phones">
+                            <a href="tel:+74994909390"> +7 499 490-93-90</a>
+                            <a href="tel:+74994508889">+7 499 450-88-89</a>
+                        </div>
+
+
+                    </div>
+                </div>
+            </div>
+
+            <nav class="header__nav">
+                <div class="container">
+                    <div class="block">
+                        <ul class="header__menu">
+                            <li class="header__menu-item">
+                                <a href="#" class="header__menu-link">О клинике</a>
+                            </li>
+                            <li class="header__menu-item has-dropdown">
+                                <a href="#" class="header__menu-link">Направления
+                                    <svg class="header_mobile-menu__arrow" width="24" height="24" viewBox="0 0 24 24"
+                                        fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M7 10L11.5 14L16 10" stroke="#001751" stroke-width="1.5"
+                                            stroke-linecap="round" stroke-linejoin="round" />
+                                    </svg>
+                                </a>
+                                <div class="header__dropdown">
+                                    <a href="#" class="header__dropdown-item">Боль</a>
+                                    <a href="#" class="header__dropdown-item">Сон</a>
+                                    <a href="#" class="header__dropdown-item">Психосоматика</a>
+                                    <a href="#" class="header__dropdown-item">Психиатрия</a>
+                                    <a href="#" class="header__dropdown-item">Неврология</a>
+                                    <a href="#" class="header__dropdown-item">Ревматология</a>
+                                    <a href="#" class="header__dropdown-item">Кардиология</a>
+                                    <a href="#" class="header__dropdown-item">Пульмонология</a>
+                                    <a href="#" class="header__dropdown-item">Нефрология</a>
+                                    <a href="#" class="header__dropdown-item">Гепатология</a>
+                                    <a href="#" class="header__dropdown-item">Гастроэнтерология</a>
+                                </div>
+                            </li>
+                            <li class="header__menu-item">
+                                <a href="#" class="header__menu-link">Коллектив</a>
+                            </li>
+                            <li class="header__menu-item has-dropdown">
+                                <a href="#" class="header__menu-link">Пациентам
+                                    <svg class="header_mobile-menu__arrow" width="24" height="24" viewBox="0 0 24 24"
+                                        fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M7 10L11.5 14L16 10" stroke="#001751" stroke-width="1.5"
+                                            stroke-linecap="round" stroke-linejoin="round" />
+                                    </svg>
+                                </a>
+                                <div class="header__dropdown">
+                                    <a href="#" class="header__dropdown-item">Памятка пациенту</a>
+                                    <a href="#" class="header__dropdown-item">Видеоконсультация "Телемедицина"</a>
+                                    <a href="#" class="header__dropdown-item">Цены</a>
+                                </div>
+                            </li>
+                            <li class="header__menu-item">
+                                <a href="#" class="header__menu-link">Контакты</a>
+                            </li>
+                        </ul>
+
+                        <div class="header__nav-actions">
+                            <div class="icons">
+                                <a href="#" class="header__nav-action-btn" title="WhatsApp">
+                                    <svg width="44" height="44" viewBox="0 0 44 44" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <rect x="0.5" y="0.5" width="43" height="43" rx="21.5" stroke="#14244D"
+                                            stroke-opacity="0.15" />
+                                        <path
+                                            d="M18.1543 17.75H18.7227L19.2285 19.7754L18.6572 20.2041C18.2236 20.5293 18.0015 21.119 18.208 21.6826C18.9051 23.5855 20.4145 25.0949 22.3174 25.792C22.881 25.9985 23.4707 25.7764 23.7959 25.3428L24.2236 24.7705L26.25 25.2773V25.8457C26.25 26.0687 26.0687 26.25 25.8457 26.25H24.6924C20.8583 26.25 17.75 23.1417 17.75 19.3076V18.1543C17.75 17.9313 17.9313 17.75 18.1543 17.75Z"
+                                            stroke="#001751" stroke-width="1.5" stroke-linecap="round"
+                                            stroke-linejoin="round" />
+                                        <path
+                                            d="M22 32C27.5228 32 32 27.5228 32 22C32 16.4772 27.5228 12 22 12C16.4772 12 12 16.4772 12 22C12 24.1763 12.6952 26.1902 13.8756 27.8317L12.5 32L17.0259 30.6771C18.4909 31.5187 20.1892 32 22 32Z"
+                                            stroke="#001751" stroke-width="1.5" stroke-linejoin="round" />
+                                    </svg>
+
+                                </a>
+                                <a href="#" class="header__nav-action-btn" title="Telegram">
+                                    <svg width="44" height="44" viewBox="0 0 44 44" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <rect x="0.5" y="0.5" width="43" height="43" rx="21.5" stroke="#14244D"
+                                            stroke-opacity="0.15" />
+                                        <path
+                                            d="M31 15L12 22.5L19 23.5M31 15L28.5 30L19 23.5M31 15L19 23.5M19 23.5V29L22.249 25.723"
+                                            stroke="#001751" stroke-width="1.5" stroke-linecap="round"
+                                            stroke-linejoin="round" />
+                                    </svg>
+
+
+                                </a>
+                                <a href="#" class="header__nav-action-btn" title="Email">
+                                    <svg width="44" height="44" viewBox="0 0 44 44" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <rect x="0.5" y="0.5" width="43" height="43" rx="21.5" stroke="#14244D"
+                                            stroke-opacity="0.15" />
+                                        <path
+                                            d="M31.75 16.75V27.25C31.75 28.4926 30.7426 29.5 29.5 29.5H14.5C13.2574 29.5 12.25 28.4926 12.25 27.25V16.75M31.75 16.75C31.75 15.5074 30.7426 14.5 29.5 14.5H14.5C13.2574 14.5 12.25 15.5074 12.25 16.75M31.75 16.75V16.9927C31.75 17.774 31.3447 18.4994 30.6792 18.9089L23.1792 23.5243C22.4561 23.9694 21.5439 23.9694 20.8208 23.5243L13.3208 18.9089C12.6553 18.4994 12.25 17.774 12.25 16.9927V16.75"
+                                            stroke="#001751" stroke-width="1.5" stroke-linecap="round"
+                                            stroke-linejoin="round" />
+                                    </svg>
+                                </a>
+                            </div>
+                            <a href="https://lk.sechenovclinic.ru/auth"
+                                class="header__nav-appointment-btn">Записаться</a>
+                        </div>
+                    </div>
+                </div>
+            </nav>
+        </header>
+
+        <div class="header_mobile-menu" id="mobileMenu">
+            <div class="header_mobile-menu__content">
+                <div class="header_mobile-menu__header">
+                    <button class="header_mobile-menu__close" id="closeMobileMenu">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M6 18L18 6M6 6L18 18" stroke="#001751" stroke-width="1.5" stroke-linecap="round"
+                                stroke-linejoin="round" />
+                        </svg>
+
+
+                    </button>
+                    <div class="header_mobile-menu__logo">
+                        <a href="index.html">
+                            <img src="assets/images/logo.png" alt="Клинический Центр">
+                        </a>
+                        <div class="header_mobile-menu__logo-text">
+                            <h1>Клинический Центр <br> Сеченовского Университета</h1>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="item">
+                    <a href="https://lk.sechenovclinic.ru/auth" class="header_mobile-menu__appointment">Записаться</a>
+
+                    <div class="header_mobile-menu__phones">
+                        <a href="tel:+74994909390" class="header_mobile-menu__phone">+7 (499) 490-93-90</a>
+                        <a href="tel:+74994508889" class="header_mobile-menu__phone">+7 (499) 450-88-89</a>
+                    </div>
+
+                    <div class="header_mobile-menu__time">
+                        ежедневно с 8:00 до 20:00
+                    </div>
+
+                    <div class="header_mobile-menu__nav">
+                        <ul class="header_mobile-menu__list">
+                            <li class="header_mobile-menu__item">
+                                <a href="#" class="header_mobile-menu__link">О клинике</a>
+                            </li>
+                            <li class="header_mobile-menu__item">
+                                <a href="#" class="header_mobile-menu__link" data-toggle="directions">
+                                    Направления
+                                    <svg class="header_mobile-menu__arrow" width="24" height="24" viewBox="0 0 24 24"
+                                        fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M7 10L11.5 14L16 10" stroke="#001751" stroke-width="1.5"
+                                            stroke-linecap="round" stroke-linejoin="round" />
+                                    </svg>
+
+                                </a>
+                                <div class="header_mobile-menu__submenu" id="directions">
+                                    <a href="#" class="header_mobile-menu__submenu-item">Боль</a>
+                                    <a href="#" class="header_mobile-menu__submenu-item">Сон</a>
+                                    <a href="#" class="header_mobile-menu__submenu-item">Психосоматика</a>
+                                    <a href="#" class="header_mobile-menu__submenu-item">Психиатрия</a>
+                                    <a href="#" class="header_mobile-menu__submenu-item">Неврология</a>
+                                    <a href="#" class="header_mobile-menu__submenu-item">Ревматология</a>
+                                    <a href="#" class="header_mobile-menu__submenu-item">Кардиология</a>
+                                    <a href="#" class="header_mobile-menu__submenu-item">Пульмонология</a>
+                                    <a href="#" class="header_mobile-menu__submenu-item">Нефрология</a>
+                                    <a href="#" class="header_mobile-menu__submenu-item">Гепатология</a>
+                                    <a href="#" class="header_mobile-menu__submenu-item">Гастроэнтерология</a>
+                                </div>
+                            </li>
+                            <li class="header_mobile-menu__item">
+                                <a href="#" class="header_mobile-menu__link">Коллектив</a>
+                            </li>
+                            <li class="header_mobile-menu__item">
+                                <a href="#" class="header_mobile-menu__link" data-toggle="patients">
+                                    Пациентам
+                                    <svg class="header_mobile-menu__arrow" width="24" height="24" viewBox="0 0 24 24"
+                                        fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M7 10L11.5 14L16 10" stroke="#001751" stroke-width="1.5"
+                                            stroke-linecap="round" stroke-linejoin="round" />
+                                    </svg>
+
+                                </a>
+                                <div class="header_mobile-menu__submenu" id="patients">
+                                    <a href="#" class="header_mobile-menu__submenu-item">Памятка пациенту</a>
+                                    <a href="#" class="header_mobile-menu__submenu-item">Видеоконсультация
+                                        "Телемедицина"</a>
+                                    <a href="#" class="header_mobile-menu__submenu-item">Цены</a>
+                                </div>
+                            </li>
+                            <li class="header_mobile-menu__item">
+                                <a href="#" class="header_mobile-menu__link">Контакты</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="header_mobile-menu__footer">
+                    <div class="header_mobile-menu__social">
+                        <a href="#" class="header_mobile-menu__social-item">
+                            WhatsApp
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path d="M4.5 19.5L19.5 4.5M19.5 4.5L8.25 4.5M19.5 4.5V15.75" stroke="#001A4B"
+                                    stroke-opacity="0.4" stroke-width="1.5" stroke-linecap="round"
+                                    stroke-linejoin="round" />
+                            </svg>
+
+                        </a>
+                        <a href="#" class="header_mobile-menu__social-item">
+                            Telegram
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path d="M4.5 19.5L19.5 4.5M19.5 4.5L8.25 4.5M19.5 4.5V15.75" stroke="#001A4B"
+                                    stroke-opacity="0.4" stroke-width="1.5" stroke-linecap="round"
+                                    stroke-linejoin="round" />
+                            </svg>
+
+                        </a>
+                        <a href="#" class="header_mobile-menu__social-item">
+                            Email
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path d="M4.5 19.5L19.5 4.5M19.5 4.5L8.25 4.5M19.5 4.5V15.75" stroke="#001A4B"
+                                    stroke-opacity="0.4" stroke-width="1.5" stroke-linecap="round"
+                                    stroke-linejoin="round" />
+                            </svg>
+
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- header end -->
+        <section class="hero about">
+            <div class="container">
+                <div class="hero_block">
+                    <h1 class="main-text">Памятка пациентам</h1>
+                </div>
+            </div>
+        </section>
+        <!-- hero end -->
+        <div class="back">
+            <div class="container">
+                <a href="index.html" class="back-link">
+                    <svg width="44" height="44" viewBox="0 0 44 44" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <rect x="0.5" y="0.5" width="43" height="43" rx="21.5" stroke="#14244D" stroke-opacity="0.15" />
+                        <path d="M29.5 22L14.5 22M14.5 22L21.25 28.75M14.5 22L21.25 15.25" stroke="#001751"
+                            stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                    </svg>
+                    Назад
+                </a>
+            </div>
+        </div>
+        <!-- back end -->
+        <!--  -->
+        <!-- =============== ====================video-consultation-section end======== -->
+        <section class="problems-section">
+            <div class="container">
+
+                <div class="accordion problems-accordion" id="problemsAccordion">
+
+
+
+
+                    <!-- Ревматология -->
+                    <div class="accordion-item downloading_item first-downloading_item">
+                        <div class="accordion-button about collapsed">
+                            Правила подготовки к исследованиям и <br> показания к проведению исследований
+                        </div>
+                        <a href="#" class="download_btn">Скачать <svg width="24" height="24" viewBox="0 0 24 24"
+                                fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M19.5 14.25V11.625C19.5 9.76104 17.989 8.25 16.125 8.25H14.625C14.0037 8.25 13.5 7.74632 13.5 7.125V5.625C13.5 3.76104 11.989 2.25 10.125 2.25H8.25M8.25 15H15.75M8.25 18H12M10.5 2.25H5.625C5.00368 2.25 4.5 2.75368 4.5 3.375V20.625C4.5 21.2463 5.00368 21.75 5.625 21.75H18.375C18.9963 21.75 19.5 21.2463 19.5 20.625V11.25C19.5 6.27944 15.4706 2.25 10.5 2.25Z"
+                                    stroke="#001751" stroke-width="1.5" stroke-linecap="round"
+                                    stroke-linejoin="round" />
+                            </svg>
+                        </a>
+                    </div>
+
+
+                </div>
+            </div>
+        </section>
+        <!--problems end  -->
+        <section class="faq-section">
+            <div class="container">
+                <div class="faq_item">
+                    <div class="faq_header">
+                        <h2 class="problems-title">Часто задаваемые вопросы</h2>
+                        <p>
+                            У Вас остались вопросы?
+                            <a href="#">Напишите нам</a>
+                        </p>
+                    </div>
+
+                    <div class="accordion problems-accordion" id="problemsAccordion">
+                        <div class="accordion-item">
+                            <h2 class="accordion-header">
+                                <div class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#question1" aria-expanded="false" aria-controls="question1">
+                                    В чем отличие нашего центра от других клиник?
+                                </div>
+                            </h2>
+                            <div id="question1" class="accordion-collapse collapse" data-bs-parent="#problemsAccordion">
+                                <div class="accordion-body">
+                                    <div class="symptoms-grid">
+                                        <p>Интегративная медицина использует все адекватные терапевтические подходы
+                                            (традиционные и нетрадиционные - доказанные научным сообществом),
+                                            сосредоточенные на оценке состояния здоровья, на терапевтических
+                                            отношениях
+                                            и человеке в целом. Такой комплексный, индивидуальный подход включает в
+                                            себя
+                                            весь спектр физических, эмоциональных, ментальных, социальных и духовных
+                                            факторов, которые влияют на ваше здоровье</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="accordion-item">
+                            <h2 class="accordion-header">
+                                <div class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#question2" aria-expanded="true" aria-controls="question2">
+                                    Возьмите с собой на прием к доктору
+                                </div>
+                            </h2>
+                            <div id="question2" class="accordion-collapse collapse "
+                                data-bs-parent="#problemsAccordion">
+                                <div class="accordion-body">
+                                    <div class="symptoms-grid">
+                                        <p>Интегративная медицина использует все адекватные терапевтические подходы
+                                            (традиционные и нетрадиционные - доказанные научным сообществом),
+                                            сосредоточенные на оценке состояния здоровья, на терапевтических
+                                            отношениях
+                                            и человеке в целом. Такой комплексный, индивидуальный подход включает в
+                                            себя
+                                            весь спектр физических, эмоциональных, ментальных, социальных и духовных
+                                            факторов, которые влияют на ваше здоровье</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="accordion-item">
+                            <h2 class="accordion-header">
+                                <div class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#question3" aria-expanded="false" aria-controls="question3">
+                                    Порядок госпитализации в клинику УКБ 3
+                                </div>
+                            </h2>
+                            <div id="question3" class="accordion-collapse collapse" data-bs-parent="#problemsAccordion">
+                                <div class="accordion-body">
+                                    <div class="symptoms-grid">
+                                        <p>Интегративная медицина использует все адекватные терапевтические подходы
+                                            (традиционные и нетрадиционные - доказанные научным сообществом),
+                                            сосредоточенные на оценке состояния здоровья, на терапевтических
+                                            отношениях
+                                            и человеке в целом. Такой комплексный, индивидуальный подход включает в
+                                            себя
+                                            весь спектр физических, эмоциональных, ментальных, социальных и духовных
+                                            факторов, которые влияют на ваше здоровье</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="accordion-item">
+                            <h2 class="accordion-header">
+                                <div class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#question4" aria-expanded="false" aria-controls="question4">
+                                    Как проконсультироваться онлайн?
+                                </div>
+                            </h2>
+                            <div id="question4" class="accordion-collapse collapse" data-bs-parent="#problemsAccordion">
+                                <div class="accordion-body">
+                                    <div class="symptoms-grid">
+                                        <p>Интегративная медицина использует все адекватные терапевтические подходы
+                                            (традиционные и нетрадиционные - доказанные научным сообществом),
+                                            сосредоточенные на оценке состояния здоровья, на терапевтических
+                                            отношениях
+                                            и человеке в целом. Такой комплексный, индивидуальный подход включает в
+                                            себя
+                                            весь спектр физических, эмоциональных, ментальных, социальных и духовных
+                                            факторов, которые влияют на ваше здоровье</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="accordion-item">
+                            <h2 class="accordion-header">
+                                <div class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#question5" aria-expanded="false" aria-controls="question5">
+                                    Что происходит, если мой план лечения мне не подойдет?
+                                </div>
+                            </h2>
+                            <div id="question5" class="accordion-collapse collapse" data-bs-parent="#problemsAccordion">
+                                <div class="accordion-body">
+                                    <div class="symptoms-grid">
+                                        <p>Интегративная медицина использует все адекватные терапевтические подходы
+                                            (традиционные и нетрадиционные - доказанные научным сообществом),
+                                            сосредоточенные на оценке состояния здоровья, на терапевтических
+                                            отношениях
+                                            и человеке в целом. Такой комплексный, индивидуальный подход включает в
+                                            себя
+                                            весь спектр физических, эмоциональных, ментальных, социальных и духовных
+                                            факторов, которые влияют на ваше здоровье</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="accordion-item">
+                            <h2 class="accordion-header">
+                                <div class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#question6" aria-expanded="false" aria-controls="question6">
+                                    Мне придётся пить много таблеток?
+                                </div>
+                            </h2>
+                            <div id="question6" class="accordion-collapse collapse" data-bs-parent="#problemsAccordion">
+                                <div class="accordion-body">
+                                    <div class="symptoms-grid">
+                                        <p>Интегративная медицина использует все адекватные терапевтические подходы
+                                            (традиционные и нетрадиционные - доказанные научным сообществом),
+                                            сосредоточенные на оценке состояния здоровья, на терапевтических
+                                            отношениях
+                                            и человеке в целом. Такой комплексный, индивидуальный подход включает в
+                                            себя
+                                            весь спектр физических, эмоциональных, ментальных, социальных и духовных
+                                            факторов, которые влияют на ваше здоровье</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="accordion-item">
+                            <h2 class="accordion-header">
+                                <div class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#question7" aria-expanded="false" aria-controls="question7">
+                                    Как проконсультироваться онлайн?
+                                </div>
+                            </h2>
+                            <div id="question7" class="accordion-collapse collapse" data-bs-parent="#problemsAccordion">
+                                <div class="accordion-body">
+                                    <div class="symptoms-grid">
+                                        <p>Интегративная медицина использует все адекватные терапевтические подходы
+                                            (традиционные и нетрадиционные - доказанные научным сообществом),
+                                            сосредоточенные на оценке состояния здоровья, на терапевтических
+                                            отношениях
+                                            и человеке в целом. Такой комплексный, индивидуальный подход включает в
+                                            себя
+                                            весь спектр физических, эмоциональных, ментальных, социальных и духовных
+                                            факторов, которые влияют на ваше здоровье</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!--  -->
+                        <p class="mobile-item">
+                            У Вас остались вопросы?
+                            <a href="#">Напишите нам</a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--  -->
+        <div class="footer-wrapper">
+            <footer class="footer-section">
+                <div class="container">
+                    <div class="footer-content">
+                        <div class="footer-left">
+                            <div class="copyright">© УКБ 3, 2025</div>
+                            <div class="site-descriptions">
+                                <div class="site-desc">Сайт клинического центра</div>
+                                <div class="site-desc">Сайт Сеченовского университета</div>
+                            </div>
+                            <div class="social-links">
+                                <a href="#" class="social-link">WhatsApp</a>
+                                <a href="#" class="social-link">Telegram</a>
+                                <a href="#" class="social-link">Email</a>
+                            </div>
+                        </div>
+
+
+
+                        <div class="footer-right">
+                            <div class="footer-links">
+                                <a href="#" class="footer-link">О клинике</a>
+                                <a href="#" class="footer-link">Коллектив</a>
+                                <a href="#" class="footer-link">Контакты</a>
+                                <a href="https://lk.sechenovclinic.ru/auth" class="footer-link">Записаться</a>
+                            </div>
+                            <div class="footer-links">
+                                <a href="#" class="footer-link">Пациенту пациенту</a>
+                                <a href="#" class="footer-link">Видеоконсультация</a>
+                                <a href="#" class="footer-link">Политика конфиденциальности</a>
+                                <a href="#" class="footer-link">Использование cookie</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </footer>
+        </div>
+
+    </div>
+    <!-- jquery -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"
+        integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <!-- bootstrap -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/js/bootstrap.bundle.min.js"></script>
+    <!-- swiper -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/8.4.7/swiper-bundle.min.js"></script>
+
+
+    <script src="script.js"></script>
+</body>
+
+</html>

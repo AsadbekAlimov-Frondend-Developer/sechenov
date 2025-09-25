@@ -1,0 +1,1211 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Клинический Центр Сеченовского Университета</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/8.4.7/swiper-bundle.min.css" />
+
+    <link rel="stylesheet" href="assets/styles/index.css">
+</head>
+
+<body>
+
+    <div class="wrapper">
+        <header class="header">
+            <div class="container">
+                <div class="header__top">
+                    <button class="header__mobile-toggle" id="mobileToggle">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M3.75 6.75H20.25M3.75 12H20.25M3.75 17.25H12" stroke="#001751" stroke-width="1.5"
+                                stroke-linecap="round" stroke-linejoin="round" />
+                        </svg>
+
+                    </button>
+                    <div class="header__logo">
+                        <a href="index.html">
+                            <img src="assets/images/logo.png" alt="Клинический Центр">
+                        </a>
+                        <div class="header__logo-text">
+                            <h1>Клинический Центр <br> Сеченовского Университета</h1>
+                        </div>
+                    </div>
+
+
+                    <div class="header__right">
+                        <div class="header__center">
+                            ежедневно с 8:00 до 20:00
+                        </div>
+                        <div class="header__phones">
+                            <a href="tel:+74994909390"> +7 499 490-93-90</a>
+                            <a href="tel:+74994508889">+7 499 450-88-89</a>
+                        </div>
+
+
+                    </div>
+                </div>
+            </div>
+
+            <nav class="header__nav">
+                <div class="container">
+                    <div class="block">
+                        <ul class="header__menu">
+                            <li class="header__menu-item">
+                                <a href="#" class="header__menu-link">О клинике</a>
+                            </li>
+                            <li class="header__menu-item has-dropdown">
+                                <a href="#" class="header__menu-link">Направления
+                                    <svg class="header_mobile-menu__arrow" width="24" height="24" viewBox="0 0 24 24"
+                                        fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M7 10L11.5 14L16 10" stroke="#001751" stroke-width="1.5"
+                                            stroke-linecap="round" stroke-linejoin="round" />
+                                    </svg>
+                                </a>
+                                <div class="header__dropdown">
+                                    <a href="#" class="header__dropdown-item">Боль</a>
+                                    <a href="#" class="header__dropdown-item">Сон</a>
+                                    <a href="#" class="header__dropdown-item">Психосоматика</a>
+                                    <a href="#" class="header__dropdown-item">Психиатрия</a>
+                                    <a href="#" class="header__dropdown-item">Неврология</a>
+                                    <a href="#" class="header__dropdown-item">Ревматология</a>
+                                    <a href="#" class="header__dropdown-item">Кардиология</a>
+                                    <a href="#" class="header__dropdown-item">Пульмонология</a>
+                                    <a href="#" class="header__dropdown-item">Нефрология</a>
+                                    <a href="#" class="header__dropdown-item">Гепатология</a>
+                                    <a href="#" class="header__dropdown-item">Гастроэнтерология</a>
+                                </div>
+                            </li>
+                            <li class="header__menu-item">
+                                <a href="#" class="header__menu-link">Коллектив</a>
+                            </li>
+                            <li class="header__menu-item has-dropdown">
+                                <a href="#" class="header__menu-link">Пациентам
+                                    <svg class="header_mobile-menu__arrow" width="24" height="24" viewBox="0 0 24 24"
+                                        fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M7 10L11.5 14L16 10" stroke="#001751" stroke-width="1.5"
+                                            stroke-linecap="round" stroke-linejoin="round" />
+                                    </svg>
+                                </a>
+                                <div class="header__dropdown">
+                                    <a href="#" class="header__dropdown-item">Памятка пациенту</a>
+                                    <a href="#" class="header__dropdown-item">Видеоконсультация "Телемедицина"</a>
+                                    <a href="#" class="header__dropdown-item">Цены</a>
+                                </div>
+                            </li>
+                            <li class="header__menu-item">
+                                <a href="#" class="header__menu-link">Контакты</a>
+                            </li>
+                        </ul>
+
+                        <div class="header__nav-actions">
+                            <div class="icons">
+                                <a href="#" class="header__nav-action-btn" title="WhatsApp">
+                                    <svg width="44" height="44" viewBox="0 0 44 44" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <rect x="0.5" y="0.5" width="43" height="43" rx="21.5" stroke="#14244D"
+                                            stroke-opacity="0.15" />
+                                        <path
+                                            d="M18.1543 17.75H18.7227L19.2285 19.7754L18.6572 20.2041C18.2236 20.5293 18.0015 21.119 18.208 21.6826C18.9051 23.5855 20.4145 25.0949 22.3174 25.792C22.881 25.9985 23.4707 25.7764 23.7959 25.3428L24.2236 24.7705L26.25 25.2773V25.8457C26.25 26.0687 26.0687 26.25 25.8457 26.25H24.6924C20.8583 26.25 17.75 23.1417 17.75 19.3076V18.1543C17.75 17.9313 17.9313 17.75 18.1543 17.75Z"
+                                            stroke="#001751" stroke-width="1.5" stroke-linecap="round"
+                                            stroke-linejoin="round" />
+                                        <path
+                                            d="M22 32C27.5228 32 32 27.5228 32 22C32 16.4772 27.5228 12 22 12C16.4772 12 12 16.4772 12 22C12 24.1763 12.6952 26.1902 13.8756 27.8317L12.5 32L17.0259 30.6771C18.4909 31.5187 20.1892 32 22 32Z"
+                                            stroke="#001751" stroke-width="1.5" stroke-linejoin="round" />
+                                    </svg>
+
+                                </a>
+                                <a href="#" class="header__nav-action-btn" title="Telegram">
+                                    <svg width="44" height="44" viewBox="0 0 44 44" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <rect x="0.5" y="0.5" width="43" height="43" rx="21.5" stroke="#14244D"
+                                            stroke-opacity="0.15" />
+                                        <path
+                                            d="M31 15L12 22.5L19 23.5M31 15L28.5 30L19 23.5M31 15L19 23.5M19 23.5V29L22.249 25.723"
+                                            stroke="#001751" stroke-width="1.5" stroke-linecap="round"
+                                            stroke-linejoin="round" />
+                                    </svg>
+
+
+                                </a>
+                                <a href="#" class="header__nav-action-btn" title="Email">
+                                    <svg width="44" height="44" viewBox="0 0 44 44" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <rect x="0.5" y="0.5" width="43" height="43" rx="21.5" stroke="#14244D"
+                                            stroke-opacity="0.15" />
+                                        <path
+                                            d="M31.75 16.75V27.25C31.75 28.4926 30.7426 29.5 29.5 29.5H14.5C13.2574 29.5 12.25 28.4926 12.25 27.25V16.75M31.75 16.75C31.75 15.5074 30.7426 14.5 29.5 14.5H14.5C13.2574 14.5 12.25 15.5074 12.25 16.75M31.75 16.75V16.9927C31.75 17.774 31.3447 18.4994 30.6792 18.9089L23.1792 23.5243C22.4561 23.9694 21.5439 23.9694 20.8208 23.5243L13.3208 18.9089C12.6553 18.4994 12.25 17.774 12.25 16.9927V16.75"
+                                            stroke="#001751" stroke-width="1.5" stroke-linecap="round"
+                                            stroke-linejoin="round" />
+                                    </svg>
+                                </a>
+                            </div>
+                            <a href="https://lk.sechenovclinic.ru/auth"
+                                class="header__nav-appointment-btn">Записаться</a>
+                        </div>
+                    </div>
+                </div>
+            </nav>
+        </header>
+
+        <div class="header_mobile-menu" id="mobileMenu">
+            <div class="header_mobile-menu__content">
+                <div class="header_mobile-menu__header">
+                    <button class="header_mobile-menu__close" id="closeMobileMenu">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M6 18L18 6M6 6L18 18" stroke="#001751" stroke-width="1.5" stroke-linecap="round"
+                                stroke-linejoin="round" />
+                        </svg>
+
+
+                    </button>
+                    <div class="header_mobile-menu__logo">
+                        <a href="index.html">
+                            <img src="assets/images/logo.png" alt="Клинический Центр">
+                        </a>
+                        <div class="header_mobile-menu__logo-text">
+                            <h1>Клинический Центр <br> Сеченовского Университета</h1>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="item">
+                    <a href="https://lk.sechenovclinic.ru/auth" class="header_mobile-menu__appointment">Записаться</a>
+
+                    <div class="header_mobile-menu__phones">
+                        <a href="tel:+74994909390" class="header_mobile-menu__phone">+7 (499) 490-93-90</a>
+                        <a href="tel:+74994508889" class="header_mobile-menu__phone">+7 (499) 450-88-89</a>
+                    </div>
+
+                    <div class="header_mobile-menu__time">
+                        ежедневно с 8:00 до 20:00
+                    </div>
+
+                    <div class="header_mobile-menu__nav">
+                        <ul class="header_mobile-menu__list">
+                            <li class="header_mobile-menu__item">
+                                <a href="#" class="header_mobile-menu__link">О клинике</a>
+                            </li>
+                            <li class="header_mobile-menu__item">
+                                <a href="#" class="header_mobile-menu__link" data-toggle="directions">
+                                    Направления
+                                    <svg class="header_mobile-menu__arrow" width="24" height="24" viewBox="0 0 24 24"
+                                        fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M7 10L11.5 14L16 10" stroke="#001751" stroke-width="1.5"
+                                            stroke-linecap="round" stroke-linejoin="round" />
+                                    </svg>
+
+                                </a>
+                                <div class="header_mobile-menu__submenu" id="directions">
+                                    <a href="#" class="header_mobile-menu__submenu-item">Боль</a>
+                                    <a href="#" class="header_mobile-menu__submenu-item">Сон</a>
+                                    <a href="#" class="header_mobile-menu__submenu-item">Психосоматика</a>
+                                    <a href="#" class="header_mobile-menu__submenu-item">Психиатрия</a>
+                                    <a href="#" class="header_mobile-menu__submenu-item">Неврология</a>
+                                    <a href="#" class="header_mobile-menu__submenu-item">Ревматология</a>
+                                    <a href="#" class="header_mobile-menu__submenu-item">Кардиология</a>
+                                    <a href="#" class="header_mobile-menu__submenu-item">Пульмонология</a>
+                                    <a href="#" class="header_mobile-menu__submenu-item">Нефрология</a>
+                                    <a href="#" class="header_mobile-menu__submenu-item">Гепатология</a>
+                                    <a href="#" class="header_mobile-menu__submenu-item">Гастроэнтерология</a>
+                                </div>
+                            </li>
+                            <li class="header_mobile-menu__item">
+                                <a href="#" class="header_mobile-menu__link">Коллектив</a>
+                            </li>
+                            <li class="header_mobile-menu__item">
+                                <a href="#" class="header_mobile-menu__link" data-toggle="patients">
+                                    Пациентам
+                                    <svg class="header_mobile-menu__arrow" width="24" height="24" viewBox="0 0 24 24"
+                                        fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M7 10L11.5 14L16 10" stroke="#001751" stroke-width="1.5"
+                                            stroke-linecap="round" stroke-linejoin="round" />
+                                    </svg>
+
+                                </a>
+                                <div class="header_mobile-menu__submenu" id="patients">
+                                    <a href="#" class="header_mobile-menu__submenu-item">Памятка пациенту</a>
+                                    <a href="#" class="header_mobile-menu__submenu-item">Видеоконсультация
+                                        "Телемедицина"</a>
+                                    <a href="#" class="header_mobile-menu__submenu-item">Цены</a>
+                                </div>
+                            </li>
+                            <li class="header_mobile-menu__item">
+                                <a href="#" class="header_mobile-menu__link">Контакты</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="header_mobile-menu__footer">
+                    <div class="header_mobile-menu__social">
+                        <a href="#" class="header_mobile-menu__social-item">
+                            WhatsApp
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path d="M4.5 19.5L19.5 4.5M19.5 4.5L8.25 4.5M19.5 4.5V15.75" stroke="#001A4B"
+                                    stroke-opacity="0.4" stroke-width="1.5" stroke-linecap="round"
+                                    stroke-linejoin="round" />
+                            </svg>
+
+                        </a>
+                        <a href="#" class="header_mobile-menu__social-item">
+                            Telegram
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path d="M4.5 19.5L19.5 4.5M19.5 4.5L8.25 4.5M19.5 4.5V15.75" stroke="#001A4B"
+                                    stroke-opacity="0.4" stroke-width="1.5" stroke-linecap="round"
+                                    stroke-linejoin="round" />
+                            </svg>
+
+                        </a>
+                        <a href="#" class="header_mobile-menu__social-item">
+                            Email
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path d="M4.5 19.5L19.5 4.5M19.5 4.5L8.25 4.5M19.5 4.5V15.75" stroke="#001A4B"
+                                    stroke-opacity="0.4" stroke-width="1.5" stroke-linecap="round"
+                                    stroke-linejoin="round" />
+                            </svg>
+
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- header end -->
+        <section class="hero about">
+            <div class="container">
+                <div class="hero_block">
+                    <h1 class="main-text">О клинике</h1>
+                </div>
+            </div>
+        </section>
+        <!-- hero end -->
+        <div class="back">
+            <div class="container">
+                <a href="index.html" class="back-link">
+                    <svg width="44" height="44" viewBox="0 0 44 44" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <rect x="0.5" y="0.5" width="43" height="43" rx="21.5" stroke="#14244D" stroke-opacity="0.15" />
+                        <path d="M29.5 22L14.5 22M14.5 22L21.25 28.75M14.5 22L21.25 15.25" stroke="#001751"
+                            stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                    </svg>
+                    Назад
+                </a>
+            </div>
+        </div>
+        <section class="about-section">
+            <div class="container">
+
+                <h1 class="page-title">УКБ №3</h1>
+
+                <div class="content-layout">
+                    <div class="content-left">
+                        <div class="content-item">
+                            <div class="item-number">01</div>
+                            <div class="item-content">
+                                <h3 class="item-title">Университетская клиническая больница №3</h3>
+                                <p class="item-subtitle">Сеченовского университета</p>
+                            </div>
+                        </div>
+
+                        <div class="content-item">
+                            <div class="item-number">02</div>
+                            <div class="item-content">
+                                <p class="item-description">
+                                    На базе клиники работают <span class="highlight">кафедры ПМГМУ им.
+                                        Сеченова</span>, осуществляющие подготовку студентов, ординаторов,
+                                    аспирантов, докторантов по всей России
+                                </p>
+                            </div>
+                        </div>
+
+                        <div class="content-item">
+                            <div class="item-number">03</div>
+                            <div class="item-content">
+                                <p class="item-description">На базе УКБ №3 функционируют:</p>
+                                <ul class="departments-list">
+                                    <li class="department-item">Клиника <span class="highlight">нервных болезней им.
+                                            А.Я.Кожевникова</span></li>
+                                    <li class="department-item">Клиника <span class="highlight">психиатрии им. С.С.
+                                            Корсакова</span></li>
+                                    <li class="department-item">Клиника <span class="highlight">ревматологии,
+                                            нефрологии и профпатологии им. Е.М. Тареева</span></li>
+                                    <li class="department-item">Клиника <span class="highlight">психосоматической
+                                            медицины</span></li>
+                                    <li class="department-item">Отделение <span class="highlight">медицины
+                                            сна</span></li>
+                                    <li class="department-item">Отделение <span class="highlight">лучевой
+                                            диагностики</span></li>
+                                    <li class="department-item">Центр <span class="highlight">профессиональной
+                                            патологии</span></li>
+                                    <li class="department-item">Отделение <span class="highlight">паллиативной
+                                            медицинской помощи</span></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="content-right">
+                        <div class="doctor-card">
+                            <div class="doctor-avatar">
+                                <img src="assets/images/about-page_about-card_img.png"
+                                    alt="Поддубская Елена Владимировна">
+                            </div>
+                            <h3 class="doctor-name">Поддубская Елена Владимировна</h3>
+                            <p class="doctor-position">Главный врач УКБ№3</p>
+
+                            <div class="contact-info">
+                                <div class="contact-item">
+                                    <span class="contact-label">Задать вопрос: </span>
+                                    <a href="mailto:davlatova_e_a@staff.sechenov.ru"
+                                        class="contact-value">davlatova_e_a@staff.sechenov.ru</a>
+                                </div>
+                                <div class="contact-item">
+                                    <span class="contact-label">Телефон: </span>
+                                    <a href="tel:8-499-248-69-66" class="contact-value">8-499-248-69-66</a>
+                                </div>
+                                <div class="contact-item">
+                                    <span class="contact-label">График приема граждан: вт 14:00 — 16:00</span><br>
+                                    <span class="contact-label">(по предварительной записи)</span>
+                                </div>
+                            </div>
+
+                            <a href="#" class="appointment-btn">Записаться <svg width="24" height="24"
+                                    viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M4.5 12L19.5 12M19.5 12L12.75 5.25M19.5 12L12.75 18.75" stroke="#001751"
+                                        stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                                </svg>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- =====about-section end -->
+        <section class="directions about">
+            <div class="container">
+                <h2 class="directions__title">Направления</h2>
+                <div class="directions__grid">
+                    <div class="directions__card">
+                        <div class="directions__card-content">
+                            <h3 class="directions__card-title">Клиника нервных болезней им. А.Я.Кожевникова</h3>
+                            <div class="directions__card-image">
+                                <img src="assets/images/directions_card-img1.png" alt="Клиника нервных болезней">
+                            </div>
+                            <a href="#" class="directions__card-link">Перейти <svg width="24" height="24"
+                                    viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M4.5 12L19.5 12M19.5 12L12.75 5.25M19.5 12L12.75 18.75" stroke="#001A4B"
+                                        stroke-opacity="0.4" stroke-width="1.5" stroke-linecap="round"
+                                        stroke-linejoin="round" />
+                                </svg>
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="directions__card">
+                        <div class="directions__card-content">
+                            <h3 class="directions__card-title">Клиника психиатрии им. С.С. Корсакова</h3>
+                            <div class="directions__card-image">
+                                <img src="assets/images/directions_card-img2.png" alt="Клиника психиатрии">
+                            </div>
+                            <a href="#" class="directions__card-link">Перейти <svg width="24" height="24"
+                                    viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M4.5 12L19.5 12M19.5 12L12.75 5.25M19.5 12L12.75 18.75" stroke="#001A4B"
+                                        stroke-opacity="0.4" stroke-width="1.5" stroke-linecap="round"
+                                        stroke-linejoin="round" />
+                                </svg>
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="directions__card">
+                        <div class="directions__card-content">
+                            <h3 class="directions__card-title">Психосоматическая медицина</h3>
+                            <div class="directions__card-image">
+                                <img src="assets/images/directions_card-img3.png" alt="Психосоматическая медицина">
+                            </div>
+                            <a href="#" class="directions__card-link">Перейти <svg width="24" height="24"
+                                    viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M4.5 12L19.5 12M19.5 12L12.75 5.25M19.5 12L12.75 18.75" stroke="#001A4B"
+                                        stroke-opacity="0.4" stroke-width="1.5" stroke-linecap="round"
+                                        stroke-linejoin="round" />
+                                </svg>
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="directions__card">
+                        <div class="directions__card-content">
+                            <h3 class="directions__card-title">Клиника ревматологии, нефрологии и профпатологии им.
+                                Е.М.
+                                Тареева</h3>
+                            <div class="directions__card-image">
+                                <img src="assets/images/directions_card-img4.png" alt="Клиника ревматологии">
+                            </div>
+                            <a href="#" class="directions__card-link">Перейти <svg width="24" height="24"
+                                    viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M4.5 12L19.5 12M19.5 12L12.75 5.25M19.5 12L12.75 18.75" stroke="#001A4B"
+                                        stroke-opacity="0.4" stroke-width="1.5" stroke-linecap="round"
+                                        stroke-linejoin="round" />
+                                </svg>
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="directions__card">
+                        <div class="directions__card-content">
+                            <h3 class="directions__card-title">Медицина сна</h3>
+                            <div class="directions__card-image">
+                                <img src="assets/images/directions_card-img5.png" alt="Медицина сна">
+                            </div>
+                            <a href="#" class="directions__card-link">Перейти <svg width="24" height="24"
+                                    viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M4.5 12L19.5 12M19.5 12L12.75 5.25M19.5 12L12.75 18.75" stroke="#001A4B"
+                                        stroke-opacity="0.4" stroke-width="1.5" stroke-linecap="round"
+                                        stroke-linejoin="round" />
+                                </svg>
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="directions__card">
+                        <div class="directions__card-content">
+                            <h3 class="directions__card-title">Лучевая диагностика</h3>
+                            <div class="directions__card-image">
+                                <img src="assets/images/directions_card-img6.png" alt="Лучевая диагностика">
+                            </div>
+                            <a href="#" class="directions__card-link">Перейти <svg width="24" height="24"
+                                    viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M4.5 12L19.5 12M19.5 12L12.75 5.25M19.5 12L12.75 18.75" stroke="#001A4B"
+                                        stroke-opacity="0.4" stroke-width="1.5" stroke-linecap="round"
+                                        stroke-linejoin="round" />
+                                </svg>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- ==================================directions end -->
+        <section class="section-news about">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="section-title">Актуальные новости</h2>
+                    <a href="#" class="view-all-btn">Все новости</a>
+
+                </div>
+
+                <!-- Desktop Grid -->
+                <div class="specialists-grid">
+                    <a href="#" class="specialist-card">
+                        <div class="specialist-avatar">
+                            <img src="assets/images/section-news_card-img.png" alt="Шевцова Ксения Викторовна">
+                        </div>
+                        <div class="specialist-card_item">
+                            <div class="specialist-name">Как боль влиятет на нас?</div>
+                            <div class="specialist-description">мануальная терапия, инвазивные методы</div>
+                            <span class="specialist_footer">28 фев, 2022</span>
+                        </div>
+                    </a>
+
+                    <a href="#" class="specialist-card">
+                        <div class="specialist-avatar">
+                            <img src="assets/images/section-news_card-img.png" alt="Шевцова Ксения Викторовна">
+                        </div>
+                        <div class="specialist-card_item">
+                            <div class="specialist-name">Как боль влиятет на нас?</div>
+                            <div class="specialist-description">мануальная терапия, инвазивные методы</div>
+                            <span class="specialist_footer">28 фев, 2022</span>
+                        </div>
+                    </a>
+
+                    <a href="#" class="specialist-card">
+                        <div class="specialist-avatar">
+                            <img src="assets/images/section-news_card-img.png" alt="Шевцова Ксения Викторовна">
+                        </div>
+                        <div class="specialist-card_item">
+                            <div class="specialist-name">Как боль влиятет на нас?</div>
+                            <div class="specialist-description">мануальная терапия, инвазивные методы</div>
+                            <span class="specialist_footer">28 фев, 2022</span>
+
+                        </div>
+                    </a>
+                </div>
+
+
+                <a href="#" class="mobile_view-all-btn">Все новости</a>
+
+            </div>
+        </section>
+        <!-- ==================================section-news end -->
+        <section class="problems-section">
+            <div class="container">
+
+                <div class="accordion problems-accordion" id="problemsAccordion">
+                    <!-- Боль -->
+                    <div class="accordion-item">
+                        <h2 class="accordion-header">
+                            <div class="accordion-button about collapsed" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#pain" aria-expanded="false" aria-controls="pain">
+                                История клиники <br>
+                                нервных болезней им. А.Я.Кожевникова
+                            </div>
+                        </h2>
+                        <div id="pain" class="accordion-collapse collapse" data-bs-parent="#problemsAccordion">
+                            <div class="accordion-body">
+                                <div class="symptoms-grid">
+                                    <p>
+                                        История развития московской неврологической школы в конце XIX – начале XX вв.
+                                        является по существу историей клиники нервных болезней им. А.Я.Кожевникова
+                                        Московской медицинской академии им. И.М.Сеченова. Первым заведующим клиникой
+                                        нервных
+                                        болезней Императорского московского университета и первым заведующим кафедрой
+                                        нервных болезней и психиатрии был профессор Алексей Яковлевич Кожевников.
+                                        <br>  11
+                                        октября 1890 г. была открыта первая в России клиника нервных болезней, состоящая
+                                        из
+                                        амбулатории и стационара. Через год к ней был пристроен приют для хронических
+                                        больных, а в 1892 г на основе личной коллекции Алексея Яковлевича открыт
+                                        неврологический музей. <br>  Клиника нервных болезней во всех отношениях
+                                        считалась
+                                        образцовой. Она имела все, что требовалось для педагогической, лечебной научной
+                                        работы.Клиника состояла из двух корпусов: Клинического и служебного.
+                                        <br>  Клинический
+                                        корпус помещался в кирпичном двухэтажном здании с пристройкой в виде части
+                                        третьего
+                                        этажа, где были расположены квартиры ординаторов и сиделок. <br> Главный корпус
+                                        делился
+                                        на две половины: в правой, большей, помещались мужское и женское клинические
+                                        отделения, рассчитанные на 44 койки, в левой половине на первом этаже
+                                        разместились
+                                        вестибюль, амбулатория, контора, на втором этаже - студенческие классы,
+                                        лаборатория,
+                                        аудитория на 250 мест. <br> Между амбулаторией и стационаром помещался
+                                        электролечебный
+                                        кабинет и гидротерапевтическое отделение, так чтобы ими удобно могли
+                                        пользоваться
+                                        как амбулаторные, так и стационарные больные. <br> Клиника была снабжена
+                                        первоклассным
+                                        оборудованием: в ней имелись совершенные микроскопы, необходимые реактивы,
+                                        микротомы
+                                        (приборы для приготовления тонких срезов тканей для последующего
+                                        микроскопического
+                                        изучения), проекционный аппарат для демонстрации диапозитивов и микроскопических
+                                        препаратов, и многое другое; был оборудован фотографический.  Во вновь
+                                        организованной клинике. которая по тем временам была одной из лучших в Европе,
+                                        началась интенсивная учебная, лечебная и научная работа. <br>  В дальнейшем в
+                                        клинике
+                                        работали такие видные ученые как В.К. Рот, В.А. Муратов, Г.И. Россолимо, Р.А.
+                                        Ткачев, Е.К. Сепп, Е.В. Шмидт, Н.И. Гращенков, В.В. Михеев, А.Р.Лурия, П.В.
+                                        Мельничук, А.М.Вейн. <br> В 60-х и 70-х годах прошлого века клиника была
+                                        перестроена
+                                        и
+                                        расширена.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Сон -->
+                    <div class="accordion-item">
+                        <h2 class="accordion-header">
+                            <div class="accordion-button about collapsed" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#sleep" aria-expanded="false" aria-controls="sleep">
+                                История клиники <br>
+                                психиатрии им. С.С. Корсакова
+                                </button>
+                        </h2>
+                        <div id="sleep" class="accordion-collapse collapse" data-bs-parent="#problemsAccordion">
+                            <div class="accordion-body">
+                                <div class="symptoms-grid">
+                                    <p>
+                                        Клиника психиатрии им. С.С.Корсакова построена на пожертвования вдовы купца
+                                        А.А.Морозова – В.А.Морозовой при участии Московского Императорского
+                                        Университета.
+                                        Явилась первой клиникой на Девичьем Поле. Ее открытие в 1887 году дало начало
+                                        новой
+                                        эпохе в деле преподавания психиатрии на медицинском факультете.
+                                        Реформатор в отечественной психиатрии дела лечения и ухода за душевнобольными,
+                                        директор клиники профессор Сергей Сергеевич Корсаков провел в жизнь принципы
+                                        гуманного отношения к психически больным в условиях вверенного ему
+                                        учреждения. <br> Блестящая плеяда единомышленников и учеников С.С.Корсакова
+                                        стали
+                                        продолжателями лучших традиций старой московской школы клиницистов, ставивших во
+                                        главу угла внимательное отношение к больным. Их имена золотыми буквами вписаны в
+                                        историю отечественной психиатрии: В.П.Сербский, А.Н.Бернштейн, А.А.Токарский,
+                                        А.С.Суханов, П.Б.Ганнушкин, Т.А.Гейер. <br> Под руководством С.С.Корсакова был
+                                        сформирован уникальный коллектив сотрудников, стремившихся соединить достижения
+                                        науки о душевных болезнях с практикой. На различных уровнях углубленно изучались
+                                        душевные болезни: клиническом, психологическом, морфологическом. Признание
+                                        неординарной натуры С.С.Корсакова отражено в надписи на памятнике, воздвигнутом
+                                        перед входом в клинику, работы выдающегося отечественного скульптора
+                                        С.Д.Меркурова:
+                                        «Ученый, мыслитель, психиатр, гуманист». <br> После кончины С.С.Корсакова в 1900
+                                        году
+                                        клинику возглавил В.П.Сербский, а в 1911 году – Ф.Е.Рыбаков. В это время в
+                                        начале ХХ
+                                        века наряду с углубленными исследованиями в области клинической психиатрии в
+                                        стенах
+                                        клиники звучали психологические и психоаналитические дебаты. Будучи старшим
+                                        ассистентом клиники, Н.Е.Осипов в 1910 году посетил в Европе З.Фрейда,
+                                        Э.Блейлера,
+                                        К.Г.Юнга, П.Дюбуа и стал первым популяризатором идей психоанализа в России. <br>
+                                         С
+                                        1918
+                                        года директором клиники являлся П.Б.Ганнушкин, отечественный классик пограничной
+                                        психиатрии, сформировавший свою школу психиатров-клиницистов. Ее ядро составили
+                                        Д.А.Амсницкий, И.Н.Введенский, Т.А.Гейер, В.А.Громбах, М.О.Гуревич,
+                                        П.М.Зиновьев,
+                                        Е.К.Краснушкин, Л.А.Прозоров, Л.М.Розенштейн, М.Я.Серейский, Т.И.Юдин. К
+                                        старшему
+                                        поколению учеников относятся Б.А.Белоусов, А.Г.Галачьян, Ф.Ф.Детенгоф,
+                                        С.Г.Жислин,
+                                        А.Н.Залманзон, М.З.Каплинский, Н.И.Озерецкий, Д.С.Озерецковский, Я.П.Фрумкин,
+                                        А.О.Эдельштейн. <br> В последние годы жизни П.Б.Ганнушкин много времени посвятил
+                                        работе с
+                                        молодыми сотрудниками, которые в последующем называли себя младшим поколением
+                                        его
+                                        учеников: А.П.Александрова, А.М.Дубинин, О.В.Кербиков, С.В.Крайц, А.Я.Левинсон,
+                                        Д.Е.Мелихов, В.М.Морозов, А.И.Пономарев, Б.А.Фомин, П.Д.Фридман, Е.Д.Шульман.
+                                        В последующие годы клинику возглавляли выдающиеся психиатры, каждый из которых
+                                        внес
+                                        свой заметный вклад в психиатрию. Это такие яркие клиницисты о организаторы, как
+                                        М.О.Гуревич, Е.А.Попов. Многие современные психиатры помнят годы талантливого
+                                        руководства клиникой В.М.Банщиковым. С 1971 года директором клиники стал
+                                        профессор,
+                                        член-корр. РАМН Н.М.Жариков, основоположник эпидемиологического подхода к
+                                        изучению
+                                        психических заболеваний. С 1998 года клиникой руководит член-корр. РАМН
+                                        профессор
+                                        Н.Н.Иванец. 
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Психосоматика -->
+                    <div class="accordion-item">
+                        <h2 class="accordion-header">
+                            <div class="accordion-button about collapsed" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#psychosomatic" aria-expanded="false" aria-controls="psychosomatic">
+                                История клиники<br>
+                                ревматологии, нефрологии и <br> профпатологии им. Е.М. Тареева
+                            </div>
+                        </h2>
+                        <div id="psychosomatic" class="accordion-collapse collapse" data-bs-parent="#problemsAccordion">
+                            <div class="accordion-body">
+                                <div class="symptoms-grid">
+                                    <p>
+                                        Опыт диагностики, изучения и лечения хронических заболеваний печени различной
+                                        этиологии нарабатывается отделением на протяжении уже более чем 60 лет.
+                                        Краеугольным, в клинической концепции Е.М.Тареева, является учение об этиологии
+                                        (причине) болезни.
+                                        Всегда относившийся с большим уважением к наследию С.П.Боткина, Евгений
+                                        Михайлович
+                                        подчеркивал вклад С.П.Боткина в расшифровку инфекционной природы катаральной
+                                        желтухи. Предположение С.П.Боткина о возбудителе заболевания, в том числе, -
+                                        более
+                                        тяжелых форм желтух, подтвердилось исследованиями Е.М.Тареева в широко известной
+                                        работе "Вирусная желтуха". <br>
+                                        Е.М.Тареев дал первое в нашей стране описание клиники сывороточного гепатита и
+                                        представил доказательство его передачи безбактериальным фильтратом иктерогенной
+                                        сыворотки. <br>
+                                        После открытия "австралийского антигена" была полностью подтверждена концепция
+                                        Е.М.Тареева о роли персистенции вируса гепатита в возникновении хронического
+                                        гепатита, цирроза печени и гепатоцеллюлярной карциномы. <br><br>
+
+                                        С 80-х годов прошлого столетия лидером отечественной клинической гепатологии
+                                        стала
+                                        Зинаида Георгиевна Апросина, развив представления о хроническом вирусном
+                                        гепатите
+                                        как о системном заболевании с большим многообразием клинико-лабораторных
+                                        проявлений,
+                                        а так же – о вариантах проявления аутоиммунного гепатита. <br>
+                                        Сегодня данные направления имеют большое значение не только для гепатологии, но
+                                        и
+                                        для клиники внутренних болезней в целом. <br>
+                                        В последние годы установлена большая частота выявления маркеров HBV и HCV у
+                                        больных
+                                        системными васкулитами, в первую очередь узелковым полиартериитом; <br>
+                                        гломерулонефритом, лимфомой. <br>
+                                        Работая в отделении главным научным сотрудником академической группы академика
+                                        РАМН,
+                                        профессора В.В.Серова, в 1992 г. получила звание профессора, а с 2005 г. и до
+                                        последнего времени - возглавляя академическую группу академика РАМН и РАН,
+                                        профессора Н.А.Мухина, З.Г.Апросина воспитала целую плеяду учеников.
+
+                                    </p>
+                                    <div class="symptoms-grid_imgs">
+                                        <img src="assets/images/problems-section_symptoms-grid_img1.png" alt="">
+                                        <img src="assets/images/problems-section_symptoms-grid_img2.png" alt="">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Психиатрия -->
+                    <div class="accordion-item">
+                        <h2 class="accordion-header">
+                            <div class="accordion-button about collapsed" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#psychiatry" aria-expanded="false" aria-controls="psychiatry">
+                                История клиники <br>
+                                медицины сна
+                                </button>
+                        </h2>
+                        <div id="psychiatry" class="accordion-collapse collapse" data-bs-parent="#problemsAccordion">
+                            <div class="accordion-body">
+                                <div class="symptoms-grid">
+                                    <p>
+                                        Отделение медицины сна создано в соответствии с решением Ученого Совета Первого
+                                        МГМУ
+                                        им. И.М. Сеченова <br>
+                                        Прием больных с нарушениями сна в отделении начался в декабре 2012 г. <br>
+                                        С ноября 2014 г. после ремонта в отделении регулярно проводится амбулаторный
+                                        прием
+                                        больных и полисомнографические исследования. <br>
+                                        Изучение и лечение нарушений сна проводятся в Первом Московском государственном
+                                        медицинском университете им. И.М. Сеченова (ранее — Московская медицинская
+                                        академия
+                                        им. И.М. Сеченова и 1-й Московский медицинский институт им. И.М. Сеченова) с
+                                        1968
+                                        года. <br>
+                                        Вначале эта работа проводилась в Лаборатории по изучению нервных и гуморальных
+                                        регуляций АН СССР им. Н.И. Гращенкова, а затем — в Отделе патологии вегетативной
+                                        нервной системы ММА им. И.М. Сеченова. Базой служила клиника нервных болезней
+                                        ММА
+                                        им. И.М. Сеченова, носящая сейчас имя А.Я. Кожевникова. <br>
+                                        С 1994 года с участием кафедры нервных болезней Факультета послевузовского
+                                        образования врачей на базе городской клинической больницы № 33 им. проф.
+                                        А.А.Остроумова был организован Московский городской сомнологический центр. Он
+                                        создавался и осуществлял свою работу под руководством академика Александра
+                                        Моисеевича Вейна, директором являлся профессор Яков Иосифович Левин. <br>
+                                        В 2012 г. на базе Университетской клинической больницы №3 Первого МГМУ им. И.М.
+                                        Сеченова создано Отделение медицины сна. В 2015 г. сотрудники и аппаратура
+                                        Московского городского сомнологического центра перебазировались в отделение
+                                        медицины
+                                        сна УКБ №3 Клинического центра 1 МГМУ им. И.М. Сеченова. <br>
+                                        В настоящее время в врачами отделения медицины сна осуществляется амбулаторный
+                                        приём
+                                        больных с нарушениями сна, проводятся полиграфические исследования сна и
+                                        бодрствования. <br>
+                                        В рамках работы кафедры нервных болезней и нейрохирургии Первого МГМУ им. И.М.
+                                        Сеченова сотрудниками отделения ведется учебно-методическая работа: курсы
+                                        дополнительного профессионального образования по сомнологии, издание
+                                        учебно-методических пособий, проводятся семинары и конференции.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Неврология -->
+                    <div class="accordion-item">
+                        <h2 class="accordion-header">
+                            <div class="accordion-button about collapsed" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#neurology" aria-expanded="false" aria-controls="neurology">
+                                История клиники <br>
+                                психосоматической медицины
+                                </button>
+                        </h2>
+                        <div id="neurology" class="accordion-collapse collapse" data-bs-parent="#problemsAccordion">
+                            <div class="accordion-body">
+                                <div class="symptoms-grid">
+                                    <p>
+                                        В клинике нервных болезней в 1958 году было создано рентгенодиагностическое
+                                        отделение в состав которого входили два кабинета: рентгенодиагностический
+                                        и рентгенотерапевтический. <br>
+                                        С 1958 по 1985 гг. первым заведующим отделением был врач-рентгенолог, ветеран
+                                        ВОВ,
+                                        к.м.н. Шифрин Семен Соломонович. В 1967 году после реконструкции клиники были
+                                        открыты два рентгенодиагностических кабинета на 1 этаже. В 1970 году в связи
+                                        с открытием нейрохирургического отделения появились кабинет ангиографии
+                                        и кабинет
+                                        стериотаксической диагностики. В отделении стали поводиться обследование сосудов
+                                        головного мозга, выявление опухолей мозга, а также стериотаксические операции
+                                        на головном мозге. <br>
+                                        В последующем до 1987 года заведующим отделением был Ильин Валерий
+                                        Евгеньевич врач-рентгенолог, к.м.н.
+                                        С 1987 года отделением лучевой диагностики заведует врач высшей
+                                        категории, врач-рентгенолог, доцент кафедры лучевой диагностики и лучевой
+                                        терапии,
+                                        к.м.н Шашкова Елена Владимировна. Под её непосредственным руководством произошло
+                                        кардинальное изменение отделения. В 1995 году был создан
+                                        кабинет магнитно-резонансной томографии и установлен первый отечественный
+                                        аппарат «Образ-3», напряженностью магнитного поля 0,12Т, открытого типа.
+                                        За период
+                                        с 1995 по 1999 гг. было обследовано всего пациентов 9100, из них 7082 пациента
+                                        имели
+                                        патологические изменения (в головном и спинном мозге, костно-суставной системе,
+                                        органов малого таза.) Затем в 1999 г. был получен современный
+                                        сверхпроводящий магнитно-резонансный томограф фирмы Toshiba «Оpart»,
+                                        напряженностью
+                                        магнитного поля 0,3Т, открытого типа. В 2003 году был открыт кабинет
+                                        компьютерной
+                                        томографии, где установлен аппарат «Somatom Smile» фирмы Сименс. В настоящее
+                                        время
+                                        в отделении установлены магнитно-резонансный томограф MAGNETOM Skyra 3 Тесла
+                                        Фирмы
+                                        Siemens и мультиспиральный компьютерный томограф фирмы Toshiba Aguilion Prime
+                                        160
+                                        срезовый. <br>
+                                        В 2010 г. ММА имени И. М. Сеченова был присвоен статус университета
+                                        с переименованием в Первый Московский государственный медицинский университет
+                                        имени И. М. Сеченова. Реорганизация Клинического центра, в результате которой
+                                        были
+                                        созданы 7 Университетских клинических больниц с 19 разнопрофильными клиниками
+                                        в их составе. Наше отделение лучевой диагностики клиники нервных болезней вошло
+                                        в состав УКБ №3, в состав которой вошли также клиника нефрологии, внутренних
+                                        и профессиональных болезней им. Е. М. Тареева и клиника психиатрии им. С. С.
+                                        Корсакова. К отделению присоединились два кабинета: один рентгенодиагностический
+                                        и кабинет компьютерной томографии, где установлен мультиспиральный компьютерный
+                                        томограф фирмы Toshiba Asteon Multi S4.  <br><br>
+                                        В отделении с 1999 года прошли обучение более 150 врачей на рабочих местах
+                                        и подготовку 209 клинических ординаторов. Благодаря современному оборудованию
+                                        коллектив отделения имеет возможность использовать и демонстрировать студентам
+                                        и врачам-ординаторам самые современные лучевые диагностические технологии.
+                                         
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Ревматология -->
+                    <div class="accordion-item">
+                        <h2 class="accordion-header">
+                            <div class="accordion-button about collapsed" style="
+            border-bottom: 1px solid rgba(20, 36, 77, 0.15);
+                                " type="button" data-bs-toggle="collapse" data-bs-target="#rheumatology"
+                                aria-expanded="false" aria-controls="rheumatology">
+                                История клиники <br>
+                                лучевой диагностики
+                                </button>
+                        </h2>
+                        <div id="rheumatology" class="accordion-collapse collapse" data-bs-parent="#problemsAccordion">
+                            <div class="accordion-body">
+                                <div class="symptoms-grid">
+                                    <p>
+                                        В клинике нервных болезней в 1958 году было создано рентгенодиагностическое
+                                        отделение в состав которого входили два кабинета: рентгенодиагностический
+                                        и рентгенотерапевтический. <br>
+                                        С 1958 по 1985 гг. первым заведующим отделением был врач-рентгенолог, ветеран
+                                        ВОВ,
+                                        к.м.н. Шифрин Семен Соломонович. В 1967 году после реконструкции клиники были
+                                        открыты два рентгенодиагностических кабинета на 1 этаже. В 1970 году в связи
+                                        с открытием нейрохирургического отделения появились кабинет ангиографии
+                                        и кабинет
+                                        стериотаксической диагностики. В отделении стали поводиться обследование сосудов
+                                        головного мозга, выявление опухолей мозга, а также стериотаксические операции
+                                        на головном мозге. <br>
+                                        В последующем до 1987 года заведующим отделением был Ильин Валерий
+                                        Евгеньевич врач-рентгенолог, к.м.н.
+                                        С 1987 года отделением лучевой диагностики заведует врач высшей
+                                        категории, врач-рентгенолог, доцент кафедры лучевой диагностики и лучевой
+                                        терапии,
+                                        к.м.н Шашкова Елена Владимировна. Под её непосредственным руководством произошло
+                                        кардинальное изменение отделения. В 1995 году был создан
+                                        кабинет магнитно-резонансной томографии и установлен первый отечественный
+                                        аппарат «Образ-3», напряженностью магнитного поля 0,12Т, открытого типа.
+                                        За период
+                                        с 1995 по 1999 гг. было обследовано всего пациентов 9100, из них 7082 пациента
+                                        имели
+                                        патологические изменения (в головном и спинном мозге, костно-суставной системе,
+                                        органов малого таза.) Затем в 1999 г. был получен современный
+                                        сверхпроводящий магнитно-резонансный томограф фирмы Toshiba «Оpart»,
+                                        напряженностью
+                                        магнитного поля 0,3Т, открытого типа. В 2003 году был открыт кабинет
+                                        компьютерной
+                                        томографии, где установлен аппарат «Somatom Smile» фирмы Сименс. В настоящее
+                                        время
+                                        в отделении установлены магнитно-резонансный томограф MAGNETOM Skyra 3 Тесла
+                                        Фирмы
+                                        Siemens и мультиспиральный компьютерный томограф фирмы Toshiba Aguilion Prime
+                                        160
+                                        срезовый. <br>
+                                        В 2010 г. ММА имени И. М. Сеченова был присвоен статус университета
+                                        с переименованием в Первый Московский государственный медицинский университет
+                                        имени И. М. Сеченова. Реорганизация Клинического центра, в результате которой
+                                        были
+                                        созданы 7 Университетских клинических больниц с 19 разнопрофильными клиниками
+                                        в их составе. Наше отделение лучевой диагностики клиники нервных болезней вошло
+                                        в состав УКБ №3, в состав которой вошли также клиника нефрологии, внутренних
+                                        и профессиональных болезней им. Е. М. Тареева и клиника психиатрии им. С. С.
+                                        Корсакова. К отделению присоединились два кабинета: один рентгенодиагностический
+                                        и кабинет компьютерной томографии, где установлен мультиспиральный компьютерный
+                                        томограф фирмы Toshiba Asteon Multi S4.  <br><br>
+                                        В отделении с 1999 года прошли обучение более 150 врачей на рабочих местах
+                                        и подготовку 209 клинических ординаторов. Благодаря современному оборудованию
+                                        коллектив отделения имеет возможность использовать и демонстрировать студентам
+                                        и врачам-ординаторам самые современные лучевые диагностические технологии.
+                                         
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+        <!--  ==============================problems-accordion end -->
+        <section class="clinic-hero-section about">
+            <div class="container">
+                <div class="hero-content">
+                    <h1 class="hero-title">
+                        Современная высокотехнологическая клиника сохраняет и развивает научные традиции!
+                    </h1>
+
+                    <div class="hero-buttons">
+                        <a href="#" class="hero-btn">Видеоконсультация</a>
+                        <a href="#" class="hero-btn">Онлайн-запись</a>
+                        <a href="#" class="hero-btn">Позвонить</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- =========================clinic end -->
+        <section class="faq-section about">
+            <div class="container">
+                <div class="faq_item">
+                    <div class="faq_header">
+                        <h2 class="problems-title">Часто задаваемые вопросы</h2>
+                        <p>
+                            У Вас остались вопросы?
+                            <a href="#">Напишите нам</a>
+                        </p>
+                    </div>
+
+                    <div class="accordion problems-accordion" id="problemsAccordion">
+                        <div class="accordion-item">
+                            <h2 class="accordion-header">
+                                <div class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#question1" aria-expanded="false" aria-controls="question1">
+                                    В чем отличие нашего центра от других клиник?
+                                </div>
+                            </h2>
+                            <div id="question1" class="accordion-collapse collapse" data-bs-parent="#problemsAccordion">
+                                <div class="accordion-body">
+                                    <div class="symptoms-grid">
+                                        <p>Интегративная медицина использует все адекватные терапевтические подходы
+                                            (традиционные и нетрадиционные - доказанные научным сообществом),
+                                            сосредоточенные на оценке состояния здоровья, на терапевтических
+                                            отношениях
+                                            и человеке в целом. Такой комплексный, индивидуальный подход включает в
+                                            себя
+                                            весь спектр физических, эмоциональных, ментальных, социальных и духовных
+                                            факторов, которые влияют на ваше здоровье</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="accordion-item">
+                            <h2 class="accordion-header">
+                                <div class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#question2" aria-expanded="true" aria-controls="question2">
+                                    Возьмите с собой на прием к доктору
+                                </div>
+                            </h2>
+                            <div id="question2" class="accordion-collapse collapse "
+                                data-bs-parent="#problemsAccordion">
+                                <div class="accordion-body">
+                                    <div class="symptoms-grid">
+                                        <p>Интегративная медицина использует все адекватные терапевтические подходы
+                                            (традиционные и нетрадиционные - доказанные научным сообществом),
+                                            сосредоточенные на оценке состояния здоровья, на терапевтических
+                                            отношениях
+                                            и человеке в целом. Такой комплексный, индивидуальный подход включает в
+                                            себя
+                                            весь спектр физических, эмоциональных, ментальных, социальных и духовных
+                                            факторов, которые влияют на ваше здоровье</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="accordion-item">
+                            <h2 class="accordion-header">
+                                <div class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#question3" aria-expanded="false" aria-controls="question3">
+                                    Порядок госпитализации в клинику УКБ 3
+                                </div>
+                            </h2>
+                            <div id="question3" class="accordion-collapse collapse" data-bs-parent="#problemsAccordion">
+                                <div class="accordion-body">
+                                    <div class="symptoms-grid">
+                                        <p>Интегративная медицина использует все адекватные терапевтические подходы
+                                            (традиционные и нетрадиционные - доказанные научным сообществом),
+                                            сосредоточенные на оценке состояния здоровья, на терапевтических
+                                            отношениях
+                                            и человеке в целом. Такой комплексный, индивидуальный подход включает в
+                                            себя
+                                            весь спектр физических, эмоциональных, ментальных, социальных и духовных
+                                            факторов, которые влияют на ваше здоровье</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="accordion-item">
+                            <h2 class="accordion-header">
+                                <div class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#question4" aria-expanded="false" aria-controls="question4">
+                                    Как проконсультироваться онлайн?
+                                </div>
+                            </h2>
+                            <div id="question4" class="accordion-collapse collapse" data-bs-parent="#problemsAccordion">
+                                <div class="accordion-body">
+                                    <div class="symptoms-grid">
+                                        <p>Интегративная медицина использует все адекватные терапевтические подходы
+                                            (традиционные и нетрадиционные - доказанные научным сообществом),
+                                            сосредоточенные на оценке состояния здоровья, на терапевтических
+                                            отношениях
+                                            и человеке в целом. Такой комплексный, индивидуальный подход включает в
+                                            себя
+                                            весь спектр физических, эмоциональных, ментальных, социальных и духовных
+                                            факторов, которые влияют на ваше здоровье</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="accordion-item">
+                            <h2 class="accordion-header">
+                                <div class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#question5" aria-expanded="false" aria-controls="question5">
+                                    Что происходит, если мой план лечения мне не подойдет?
+                                </div>
+                            </h2>
+                            <div id="question5" class="accordion-collapse collapse" data-bs-parent="#problemsAccordion">
+                                <div class="accordion-body">
+                                    <div class="symptoms-grid">
+                                        <p>Интегративная медицина использует все адекватные терапевтические подходы
+                                            (традиционные и нетрадиционные - доказанные научным сообществом),
+                                            сосредоточенные на оценке состояния здоровья, на терапевтических
+                                            отношениях
+                                            и человеке в целом. Такой комплексный, индивидуальный подход включает в
+                                            себя
+                                            весь спектр физических, эмоциональных, ментальных, социальных и духовных
+                                            факторов, которые влияют на ваше здоровье</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="accordion-item">
+                            <h2 class="accordion-header">
+                                <div class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#question6" aria-expanded="false" aria-controls="question6">
+                                    Мне придётся пить много таблеток?
+                                </div>
+                            </h2>
+                            <div id="question6" class="accordion-collapse collapse" data-bs-parent="#problemsAccordion">
+                                <div class="accordion-body">
+                                    <div class="symptoms-grid">
+                                        <p>Интегративная медицина использует все адекватные терапевтические подходы
+                                            (традиционные и нетрадиционные - доказанные научным сообществом),
+                                            сосредоточенные на оценке состояния здоровья, на терапевтических
+                                            отношениях
+                                            и человеке в целом. Такой комплексный, индивидуальный подход включает в
+                                            себя
+                                            весь спектр физических, эмоциональных, ментальных, социальных и духовных
+                                            факторов, которые влияют на ваше здоровье</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="accordion-item">
+                            <h2 class="accordion-header">
+                                <div class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#question7" aria-expanded="false" aria-controls="question7">
+                                    Как проконсультироваться онлайн?
+                                </div>
+                            </h2>
+                            <div id="question7" class="accordion-collapse collapse" data-bs-parent="#problemsAccordion">
+                                <div class="accordion-body">
+                                    <div class="symptoms-grid">
+                                        <p>Интегративная медицина использует все адекватные терапевтические подходы
+                                            (традиционные и нетрадиционные - доказанные научным сообществом),
+                                            сосредоточенные на оценке состояния здоровья, на терапевтических
+                                            отношениях
+                                            и человеке в целом. Такой комплексный, индивидуальный подход включает в
+                                            себя
+                                            весь спектр физических, эмоциональных, ментальных, социальных и духовных
+                                            факторов, которые влияют на ваше здоровье</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!--  -->
+                        <p class="mobile-item">
+                            У Вас остались вопросы?
+                            <a href="#">Напишите нам</a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- <section class="radius">
+            <img src="assets/images/radius.png" alt="radius-section">
+        </section> -->
+        <div class="footer-wrapper">
+            <footer class="footer-section">
+                <div class="container">
+                    <div class="footer-content">
+                        <div class="footer-left">
+                            <div class="copyright">© УКБ 3, 2025</div>
+                            <div class="site-descriptions">
+                                <div class="site-desc">Сайт клинического центра</div>
+                                <div class="site-desc">Сайт Сеченовского университета</div>
+                            </div>
+                            <div class="social-links">
+                                <a href="#" class="social-link">WhatsApp</a>
+                                <a href="#" class="social-link">Telegram</a>
+                                <a href="#" class="social-link">Email</a>
+                            </div>
+                        </div>
+
+
+
+                        <div class="footer-right">
+                            <div class="footer-links">
+                                <a href="#" class="footer-link">О клинике</a>
+                                <a href="#" class="footer-link">Коллектив</a>
+                                <a href="#" class="footer-link">Контакты</a>
+                                <a href="https://lk.sechenovclinic.ru/auth" class="footer-link">Записаться</a>
+                            </div>
+                            <div class="footer-links">
+                                <a href="#" class="footer-link">Пациенту пациенту</a>
+                                <a href="#" class="footer-link">Видеоконсультация</a>
+                                <a href="#" class="footer-link">Политика конфиденциальности</a>
+                                <a href="#" class="footer-link">Использование cookie</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </footer>
+        </div>
+
+    </div>
+    <!-- jquery -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"
+        integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <!-- bootstrap -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/js/bootstrap.bundle.min.js"></script>
+    <!-- swiper -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/8.4.7/swiper-bundle.min.js"></script>
+
+
+    <script src="script.js"></script>
+</body>
+
+</html>
